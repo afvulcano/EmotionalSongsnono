@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("registration.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
             Scene scene = new Scene(root, 600, 400);
             stage.setMinWidth(600);
             stage.setMinHeight(400);
