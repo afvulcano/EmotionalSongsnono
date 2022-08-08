@@ -8,7 +8,7 @@ Sede: Varese
 package esongs.emotionalsongs.basicclasses;
 
 public class Utente {
-    String nome, cognome, userId, codiceFiscale, password, email;
+    String nome,cognome,userId,codiceFiscale,password,email;
     Indirizzo indirizzo;
 
     public Utente(String nome, String cognome, String userId, String codiceFiscale, String password, String email,

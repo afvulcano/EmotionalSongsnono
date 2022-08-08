@@ -1,0 +1,21 @@
+.body-bg{
+ -fx-background-image: url('../images/background.jpg');
+     -fx-background-size: 100% 100%;
+
+ }
+ #credits{
+ -fx-text-fill: #ff7700;
+ }
+.label{
+ -fx-text-fill: #ffffff;
+}
+ #mainpanel{
+   -fx-background-color:rgba(0,0,0,0.10);
+ }
+
+ .button{
+     -fx-background-color: #ff7700;
+     -fx-text-fill: WHITE;
+     -fx-background-radius: 25;
+
+ }

@@ -9,7 +9,7 @@ package esongs.emotionalsongs.basicclasses;
 
 import java.time.Year;
 public class Canzone {
-    String idCanzone, titolo, autore;
+    String idCanzone,titolo,autore;
     Year anno;
 
     public Canzone(String idCanzone, String titolo, String autore, Year anno){

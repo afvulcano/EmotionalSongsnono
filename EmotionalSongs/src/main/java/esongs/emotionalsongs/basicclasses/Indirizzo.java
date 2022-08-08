@@ -8,7 +8,7 @@ Sede: Varese
 package esongs.emotionalsongs.basicclasses;
 
 public class Indirizzo {
-    String via, numeroCivico, cap, comune, provincia;
+    String via, numeroCivico,cap,comune,provincia;
    
     public Indirizzo(String via, String numeroCivico, String cap, String comune, String provincia){
         this.via = via;

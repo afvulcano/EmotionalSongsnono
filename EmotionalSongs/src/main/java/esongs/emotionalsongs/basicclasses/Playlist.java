@@ -10,7 +10,7 @@ package esongs.emotionalsongs.basicclasses;
 import java.util.LinkedList;
 
 public class Playlist {
-    String idPlaylist, nome;
+    String idPlaylist,nome;
     LinkedList<Canzone> ListaCanzoni = new LinkedList<Canzone>();
 
     public Playlist(String idPlaylist, String nome){

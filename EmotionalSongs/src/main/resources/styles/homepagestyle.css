@@ -1,0 +1,32 @@
+.root{
+    -fx-text-font: 'monospace';
+    -fx-background-color: #140f2b;
+}
+.rounded{
+
+}
+.button{
+    -fx-background-color: #3f2f87;
+    -fx-text-fill: WHITE;
+    -fx-background-radius: 25;
+}
+
+.button:hover{
+    -fx-background-color: #53439c;
+    -fx-cursor: hand;
+
+}
+
+.label{
+    -fx-text-fill: WHITE;
+}
+
+#logo{
+-fx-font-weight: bold;
+}
+
+#propertyhbox{
+    -fx-background-color: #5543b5;
+    -fx-background-radius: 25;
+
+}

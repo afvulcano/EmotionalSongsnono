@@ -8,8 +8,5 @@ Sede: Varese
 package esongs.emotionalsongs.basicclasses;
 
 public class FileManager {
-    String PercorsoFileCanzoni;
-    String PercorsoFileUtenti;
-    String PercorsoFileEmozioni;
-    String PercorsoFilePlaylist;
+    String PercorsoFileCanzoni,PercorsoFileUtenti,PercorsoFileEmozioni,PercorsoFilePlaylist;
 }

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="850.0" styleClass="body-bg" stylesheets="@../styles/loginreg.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <Label id="credits" text="Francesco Vulcano, Giacomo Paviano, Alessandro Messuti, Riccardo Shpati (VPMS X INSUBRIA)" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <VBox id="mainpanel" prefHeight="200.0" prefWidth="100.0" spacing="5.0" stylesheets="@../nuovo/forza/src/main/resources/login.css" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="25.0" left="150.0" right="150.0" top="25.0" />
+         </BorderPane.margin>
+         <children>
+            <HBox prefHeight="25.0" prefWidth="450.0" spacing="10.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="30.0">
+                     <graphic>
+                        <FontAwesomeIconView fill="#ff7700" glyphName="USER" size="25" />
+                     </graphic>
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="nometf" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="150.0" promptText="Nome">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="cognometf" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="95.0" prefWidth="200.0" promptText="Cognome">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="75.0" right="75.0" top="75.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="85.0" layoutY="85.0" prefHeight="25.0" prefWidth="450.0" spacing="10.0">
+               <children>
+                  <Label maxWidth="1.7976931348623157E308">
+                     <graphic>
+                        <FontAwesomeIconView fill="#ff7700" glyphName="ADDRESS_CARD" size="25" />
+                     </graphic>
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="nometf1" maxWidth="1.7976931348623157E308" minWidth="-Infinity" promptText="Codice FIscale" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="75.0" right="75.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox>
+               <VBox.margin>
+                  <Insets left="75.0" right="75.0" />
+               </VBox.margin>
+               <children>
+                  <HBox prefHeight="0.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="30.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="#ff7700" glyphName="HOME" size="25" />
+                           </graphic>
+                        </Label>
+                        <TextField fx:id="cognometf1" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="95.0" prefWidth="200.0" promptText="Via/Piazza" />
+                        <TextField fx:id="cognometf11" layoutX="50.0" layoutY="10.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="95.0" prefWidth="75.0" promptText="Civico" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="0.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="30.0" />
+                        <TextField fx:id="cognometf11" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="95.0" prefWidth="200.0" promptText="Comune" />
+                        <TextField fx:id="cognometf111" layoutX="50.0" layoutY="10.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="95.0" prefWidth="75.0" promptText="Provincia" />
+                        <TextField fx:id="cognometf1111" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="95.0" prefWidth="75.0" promptText="CAP" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="25.0" prefWidth="450.0" spacing="10.0">
+                     <children>
+                        <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="30.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="#ff7700" glyphName="AT" size="25" />
+                           </graphic>
+                        </Label>
+                        <TextField fx:id="nometf11" maxWidth="1.7976931348623157E308" minWidth="-Infinity" promptText="Email" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="25.0" prefWidth="450.0" spacing="10.0">
+                     <children>
+                        <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="30.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="#ff7700" glyphName="LOCK" size="25" />
+                           </graphic>
+                        </Label>
+                        <TextField fx:id="nometf111" maxWidth="1.7976931348623157E308" minWidth="-Infinity" promptText="Crea la tua Password" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="25.0" prefWidth="450.0" spacing="10.0">
+                     <children>
+                        <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="30.0">
+                           <graphic>
+                              <FontAwesomeIconView fill="#ff7700" glyphName="LOCK" size="25" />
+                           </graphic>
+                        </Label>
+                        <TextField fx:id="nometf112" maxWidth="1.7976931348623157E308" minWidth="-Infinity" promptText="Conferma la tua Password" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefWidth="125.0" text="REGISTRATI" />
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="650.0" text="Ho già un account" underline="true" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Label text="*Compila i seguenti campi per creare un tuo account*" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+</BorderPane>
